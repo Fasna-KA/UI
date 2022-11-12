@@ -1,0 +1,476 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body{
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  
+}
+/* Title  */
+.container{
+  width: 100%;
+  height: 90vh;
+  background: url("https://s3-alpha-sig.figma.com/img/f480/a97d/d60b36738abb2865a9e63f19b7fd4d9e?Expires=1668988800&Signature=gyeknh1o4D~CdcCqt98q6iPNFcfUPzU-dCkfibZQ5H0Bl~SBdX~kJPmQCoQVuSNObsbDXCSRFCjoV3NqcUKofp-Tv9mEKIazFt~8s3MKbyaLxAqYCFYdpTcNxRG5UZBt4B4vR~O2vBLsT~07205z4of82wdjASkE21ozHTOY6aJ0rN7Bo3BVAeOybKqOpEY6RGe5siqB58niJ0k23s24FEsdQXBRdmsK6hZ2yh5FpLWgClL5qG4KKZ13M2KNva6tALu7YoGWsWG-fT~LJHww8VIH~Iqd~J6q5B5HDn0F6jzUoY1wlCmNrZLt3NZssUuhQR9PoYtIoHmGLCm9Nh232Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.card-contain{
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  padding: 20px 0px 10px 45px;
+}
+.title{
+  margin-bottom: 20px;
+  font-family: 'Rubik', sans-serif; 
+  color: #111;
+  font-size: 50px;
+}
+.title-sub{
+  font-family: 'Rubik', sans-serif;
+  font-size: 10px;
+  padding: 0 5px;
+}
+.title-dot{
+  height: 13px;
+  width: 13px;
+  position: relative;
+  left: 182px;
+  bottom: 70px;
+  background-color:#2D96D3;
+  border-radius: 50%;
+
+}
+.card-title{
+font-style: normal;
+font-size: 80px;
+color: #000000;
+}
+.card-text{
+  padding-top: 20px;
+  font-style: normal;
+  font-size: 45.7925px;
+  line-height: 56px;
+  color: #000000;
+}
+.card-box{
+  padding: 15px;
+  width: 200px;
+  height: 50px;
+  background-color: #009ADE;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  top: 5vh;
+}
+
+/* card-1 */
+.container-1{
+  display: flex;
+  justify-content: center;
+font-style: normal;
+text-align: center;
+padding: 10px;
+
+}
+.card-contain-1{
+  width: 661px;
+  margin: 20px;
+  padding: 20px;
+}
+.card-title-1{
+  font-family: 'Rubik', sans-serif;
+  padding: 20px;
+  text-transform:uppercase;
+  font-size: larger;
+  font-weight: 500px;
+  text-align: center;
+}
+.card-text-1{
+}
+
+/* container-2 */
+.container-2{
+  width: 100%;
+  padding: 40px;
+  background-color: #DDDFE3;
+  text-align: center;
+}
+
+/* condainer-3 */
+.card-body{
+  /* display: flex;
+  align-items: center; */
+  /* width: 60vw; */
+}
+.card-1{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.card-1-body{
+  width: 396px;
+  height: 300px;
+
+}
+.card-body-title{
+  width: 308.75px;
+  height: 57px;
+  font-size: 25.625px;
+  color: rgba(0,154,222,1);
+  font-weight: Bold;
+  text-align: right;
+}
+.card-body-text{
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  width: 343px;
+  height: 129px;
+  font-size: 13px;
+  color: #747474;
+  text-align: left;
+
+}
+.card-2{
+  align-items: center;
+  /* width: 596px;
+  height: 300px; */
+
+}
+
+.card-body-img{
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  right: 55px;
+  background: #000;
+  background-image: url("https://s3-alpha-sig.figma.com/img/6dc6/92f8/8a8b9e353b1777a762973ae5d2d44d97?Expires=1668988800&Signature=AP8NyVB7MoGlzXVSQxDR3geWs5DKkL2IuGOpPebyITVbsmHbAgAs~YDwJvGbmCP4KerEd~QureWAdnNWAMvVG~ah~g4VMfZMfSV~NtnaU2RyfvlTsrJ0kHAp2UKkmVSSPc9LZspwLuW6T6WuxgzxKQLHjwRcEUb64gRyaNCeUsphTZQMkcgW3dF~UilCFD5i92V2Lv0zAtEH67Z-Jf7nQPeF6H7pAFA4K-K3WY5m2oAy77rznXg9QPd4pnjiW3sVXV4nZ7O5bOWx2I3OwNY22SEKMmYbU0HCdsjtmxovLddDQndssAKTwMyQeyeGw1dovgafwAXfFuFdUjq9CI6U8w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+  width: 35vw;
+  height: 35vh;
+}
+.card-body-right{
+  position: relative;
+  left: 420px;
+  bottom: 200px;
+  z-index: 0;
+  overflow: hidden;
+  margin: 20px;
+  padding:20px 40px;
+  height: 175px;
+  width: 449px;
+  color: #FFFFFF;
+  background: #009ADE;
+  border-radius: 32px;
+  text-align: left;
+
+}
+.img-2{
+  background-image: url("https://s3-alpha-sig.figma.com/img/82fe/2fb6/28b3272846929858af901cac54ef0e15?Expires=1668988800&Signature=aNkbTVLgEjE~xBi3jg7Y1E9l5pHnq3x4PTF9H-fSdQRd4CBxij6n3n7fp1yNK1-weVP369W3ldIh2Loppdo2gCOVAvUvWL3RdQ422SbXrKyV3R1nnIF-XMgF0lgjlGcEy2aEzF3Uxptr4-AhBKQJR3orXBtiXEAjA~3q0RPSMpXczyOglbrFFy1cj4T9hMO3Vghm1kBlf0h5hPX37RdzWA~D1a9uqSh6os8-Rp4Dl~zz42shUH86G7-k0qTnfjZoV43YDQ8NYsFMGDix5p0vno~dc8CpsN4S7pqIQGklWXq170d81eIMAfwNIkE5eH-uxmU7Vr2GwSipn~OqepCw2g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+
+}
+.img-3{
+  background-image: url("https://s3-alpha-sig.figma.com/img/5942/aef2/32e0e0680ee5aeb1b6a923ebda8cc62a?Expires=1668988800&Signature=b9ZiE-Fb2l6lenNPwIP9HZYZbPQ2QKU2a076ajCZCLFrxPcTxGKbwXWRhEZV4M11yvTH7wcyWFD84AyJTBuov4~Yis0PJOS-G-Mm21vlR4Tk5ZLe~XgdaNeOEpcVQw3ZwbWih9lcbRN3dWg3wTEeYwRD0C-RRG~-Na7dKS4zJsrMoP2~P15lx8TGN4oNQ38RcOCiMKX6h3u9TWEfLoC7vbfNNUwH5RbUv~mZ7ky8ZdK8DSGYOL9K0g6xkq9iksr7n4t~UnQdgAHYurAwt5~fG7PnfHSqE~BIJFud-r~CfvUITsu0QzEr6a4kR5ayRT78boKkM0lw07ivnaCJ7X1zXw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+
+}
+.img-4{
+  background-image: url("https://s3-alpha-sig.figma.com/img/fa50/bbcd/c58cc1162bb3752b7941995cdf9a20ad?Expires=1668988800&Signature=X-dCE8vB1YO-IZRB-xITFJGobhQNE4F-dmMIkAwOfnAmXhD3E88rZd0w~WHj5PbszIiRyEeQ7BEKbHdNi~WhxsUkAsnumB9ScCuiMCijZZBPQKFZ2kDlOeyGDhyvInlw9crpQ2LwMVYJp1beWJSgZPJP~YePaOpgcjTe3GXSLWUrNwg~aGI5tilHve77641owXRZpCPKbev-HnmyBY-ba-jEtRIFML2cQYBQGuk4W8W7vxVTt8pLPdyacFRadwzIq6iwGz7Y9ezCvfGphQRK7stZKSrTultRKTiOTwQIlpMoTSU9Ig2ePZ6~Mm-3mG1AWalM67TA7X3pPNweKvgdow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+
+}
+
+.container-3{
+  /* width: 1920px; */
+  position: relative;
+  z-index: 1;
+
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  height: 237px;
+  opacity: 5;
+  background-image: url("https://s3-alpha-sig.figma.com/img/23ee/e42c/1dd1032f387254784c1847b6525596a2?Expires=1668988800&Signature=F1MK2klV225IMQxluVeT8V1hAjdlu0uJsQSl2JIP9czZrqEHaWs8rOS1ev2Wo6gJgP9MIGmI3qgXxaF5LQfLnKzi0-ckk~rBOeTMKOxWllD898fewZoD4pI1uXUAjbYBZV-QpxqJCOpivAn0kGfVizDWRVTkMgR-F0TXNA4kxkSQf22D~cocDUdjK9l6vLTUGtEw25E5jQrsENUWKCnmM5vOSh3iqZp6QhNflgnJB8LYyoPJ83rTwSts-4ce4ejD5Qpp8h8ABXiJV3xbPGBvNWAVToNdNHAh0DB7aoL-CtXKgSg-H5L1jpDVgSjLjZvlEb3f44-rpD46CHA6A4YBTQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: 100% 100%;
+  background-color: #0f4f68;
+  background-blend-mode: multiply;
+}
+.card-text-3{
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+.card-title-3{
+  padding-top: 60px;
+  text-transform: uppercase;
+}
+
+.container-4{
+  position: relative;
+  z-index: 2;
+  bottom: 6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-contain-4{
+  margin: 20px;
+  padding: 20px;
+  color:#009ADE ;
+  text-align: center;  
+  width: 210px;
+  height: 200px;
+  box-shadow: 3px 5px 10px gray;
+  background-color:white ;
+
+
+
+}
+.card-text-4{
+  padding: 20px;
+  color: #6A6A6A;
+  font-size: 10px;
+
+}
+
+.container-5{
+  text-align: center;
+}
+
+.card-body-5{
+  margin: 50px;
+  padding: 20px;
+  width: 700px;
+  margin-left: 50px;
+  position: relative;
+  left: 25%;
+  /* display: flex;
+  flex-flow: row wrap; */
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+.card-contain-5{
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .container-6{
+  width: 1000px;
+} */
+.card-detail-5{
+  position: relative;
+  left: 20vw;
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+
+}
+.card-text-5{
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  top: 8vh;
+  right: 50px;
+  z-index: 1;
+  color: #FFFFFF;
+  font-size: 15px;
+  width: 660px;
+  height: 750px;
+  background: #009ADE;
+}
+.card-head-5{
+  font-family: 'Rubik', sans-serif;
+
+}
+li{
+  text-align: left;
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: white;
+  position: relative;
+  left: 2vw;
+  z-index: 4;
+
+}
+.container-6{
+  /* width: 1950px;
+  height: 384px; */
+  padding: 30px;
+  background-color: #DDDFE3;
+}
+.card-title-6{
+  margin: 20px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+
+
+}
+.card-contain-6{
+  /* display: flex;
+  flex-direction: row ; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.card-contain-6 img p{
+padding: 10px;
+margin: 10px;
+}
+.img-6{
+  margin: 30px;
+  border-radius: 50%;
+}
+.card-text-6{
+  position: relative;
+  top: 7vh;
+  font-size: 20px;
+}
+
+.container-7{
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+.card-contain-7{
+  width: auto;
+
+}
+.card-title-7{
+  position: relative;
+  left: 28vw;
+  text-transform: uppercase;
+  text-align: center;
+  width: 585.95px;
+
+}
+.card-text-7{
+  position: relative;
+  left: 28vw;
+  width: 585.95px;
+  font-size: 10px;
+
+}
+
+form{
+  border: black 10px solid;
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 25%;
+
+}
+input{
+  padding: 10px;
+}
+textarea{
+  margin-top: 20px;
+  padding: 10px;
+}
+.card-button-7{
+  position: relative;
+  left: 15vw;
+  padding: 15px;
+  width: 200px;
+  height: 50px;
+  background-color: #009ADE;
+  cursor: pointer;
+}
+.card-title-7{
+  margin: 20px;
+}
+.container-8{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  width: auto;
+  background: #DDDFE3;
+}
+.card-title-8{
+  margin-top: 50px;
+  padding: 70px 40px;
+}
+
+
+
+@media all and (max-width:900px) and (min-width:200px){
+  body{
+    overflow-x: hidden;
+  }
+  .card-contain,.title-sub,.card-title,.card-box,.card-text{
+    width: auto;
+    height: auto;
+    font-size: 30%;
+  }
+  .card-title{
+    position: relative;
+    bottom: 30px;
+    font-size: 40px;
+  }
+  .card-text{
+    padding: 0;
+    margin: 0;
+    display: inline;
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+  }
+  .card-box{
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+   font-size: 9px;
+  }
+
+  .container2{
+    z-index: 0;
+  }
+  .card-2{
+    /* overflow: hidden; */
+  }
+  .card-body-5{
+    position: relative;
+    left: 5%;
+  
+  }
+  .card-detail-5{
+    position: relative;
+    left: 2vw;
+  }
+  .card-text-6{
+    font-size: 12px;
+  }
+  .card-title-7,.card-text-7{
+    position: relative;
+    left: 7vw;
+  }
+  .card-button-7{
+    position: relative;
+    left: 7vw;
+  }
+
+}
+@media  (min-width:320px) and (max-width:780px){
+  body{
+    overflow-x: hidden;
+  }
+
+}
