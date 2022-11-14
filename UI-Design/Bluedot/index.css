@@ -88,3 +88,6 @@ input,textarea{
 .title-footer{
   margin-top: 15vh;
 }
+button{
+  cursor: pointer;
+}
