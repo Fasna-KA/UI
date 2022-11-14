@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: 0;
+  }
+body{
+    font-family: 'Montserrat';
+ 
+}
+
+.masthead {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    background-image: url('./images/Ayurveda.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title{
+  font-family: 'Rubik', sans-serif; 
+  color: #111;
+  font-size: 5vw;
+  margin-top: 3vh;
+}
+.title-sub{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1vw;
+}
+.title-dot{
+  height: 1vw;
+  width: 1vw;
+  position: relative;
+  left: 17vw;
+  bottom: 8vw;
+  background-color:#2D96D3;
+  border-radius: 50%;
+
+}
+.card-ayur{
+  font-weight: bolder;
+  font-size: 7vw;
+  color: #000000;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+}
+.btn{
+    border-radius: 0;
+}
+h2{
+  font-family:'Rubik', sans-serif ; 
+}
+.maintxt {
+  background-color: #009ADE;
+  background-image: url("https://s3-alpha-sig.figma.com/img/23ee/e42c/1dd1032f387254784c1847b6525596a2?Expires=1668988800&Signature=F1MK2klV225IMQxluVeT8V1hAjdlu0uJsQSl2JIP9czZrqEHaWs8rOS1ev2Wo6gJgP9MIGmI3qgXxaF5LQfLnKzi0-ckk~rBOeTMKOxWllD898fewZoD4pI1uXUAjbYBZV-QpxqJCOpivAn0kGfVizDWRVTkMgR-F0TXNA4kxkSQf22D~cocDUdjK9l6vLTUGtEw25E5jQrsENUWKCnmM5vOSh3iqZp6QhNflgnJB8LYyoPJ83rTwSts-4ce4ejD5Qpp8h8ABXiJV3xbPGBvNWAVToNdNHAh0DB7aoL-CtXKgSg-H5L1jpDVgSjLjZvlEb3f44-rpD46CHA6A4YBTQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: overlay;
+
+
+}
+.position{
+  bottom: 5vh;
+
+}
+.text-who{
+  background: #009ADE;
+  margin-left: -30px;
+}
+.card-text-2{
+  position: relative;
+  z-index: 2;
+  margin-right: -80px;
+
+}
+.card-img-2{
+  position: relative;
+  z-index: 1;
+  margin-right: -90px;
+
+}
+input,textarea{
+  width: 100%;
+  margin: 1vh;
+  padding: 1vh;
+}
+.title-footer{
+  margin-top: 15vh;
+}
